@@ -70,3 +70,9 @@ input {
 form {
     border: 0px;
 }
+
+img {
+    float: left;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
