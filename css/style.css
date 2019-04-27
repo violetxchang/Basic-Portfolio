@@ -38,6 +38,7 @@ h1 {
 #wrapper {
     background-color: white;
     width: 100%;
+    padding: 0px;
 }
 
 #main-nav {
@@ -52,7 +53,6 @@ h1 {
     background-color: #4aaaa5;
     padding: 20px;
     float: left;
-    width:20%;
     font-family: Georgia, Times, Times New Roman, serif;
     color: white;
     font-weight: bold;
@@ -64,11 +64,11 @@ h1 {
 
 #nav-menu {
     background-color: #fff;
-    float: left;
-    width: 80%;
+    float: right;
     content: "";
     display: table;
     clear: both;
+    margin-top: -25px;
 }
 
 p {
@@ -76,7 +76,7 @@ p {
 }
 
 a {
-    color: darkslategray;
+    color: #333;
     text-decoration: none;
 }
 
