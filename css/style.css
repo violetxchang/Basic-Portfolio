@@ -20,22 +20,32 @@ h1,h2,h3 {
 }
 
 h1 {
+    padding-top: 0;
     padding-bottom: 15px;
     border-bottom: 3px solid #ccc;
     color: #4aaaa5;
-    align-content: left;
+    text-align: left;
 }
 
 #content {
     background-color: #fff;
     width: 960px;
-    padding: 30px;
+    padding: 0px 30px 30px 30px;
     border: 1px solid #ddd;
     margin: 0 auto;
 }
 
+#wrapper {
+    background-color: white;
+    width: 100%;
+}
+
 #main-nav {
     margin: 0 auto;
+    width: 960px;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 #title {
@@ -47,12 +57,18 @@ h1 {
     color: white;
     font-weight: bold;
     font-size: 24px;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 #nav-menu {
     background-color: #fff;
     float: left;
     width: 80%;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 p {
@@ -60,7 +76,8 @@ p {
 }
 
 a {
-    color: lightgrey;
+    color: darkslategray;
+    text-decoration: none;
 }
 
 input {
